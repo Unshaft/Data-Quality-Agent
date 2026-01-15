@@ -1,0 +1,38 @@
+{
+  "decision": "WARNING",
+  "summary": "Dataset with 1,000 rows and 12 columns has 3 quality issue(s) requiring attention.",
+  "issues": [
+    {
+      "type": "Missing values",
+      "severity": "medium",
+      "rule_reference": "DQ-01",
+      "explanation": "Column 'age' has 22.0% missing values, exceeding the 20.0% threshold.",
+      "column": "age"
+    },
+    {
+      "type": "Outliers",
+      "severity": "medium",
+      "rule_reference": "DQ-05",
+      "explanation": "Column 'monthly_spend' has 7.0% outliers (values outside [-205.53, 776.79]).",
+      "column": "monthly_spend"
+    },
+    {
+      "type": "Negative values",
+      "severity": "medium",
+      "rule_reference": "DQ-04",
+      "explanation": "Column 'weekly_purchases' contains 40 negative values (4.0%), which should not be possible for this field.",
+      "column": "weekly_purchases"
+    }
+  ],
+  "stats": {
+    "row_count": 1000,
+    "column_count": 12,
+    "issues_count": 3
+  },
+  "metadata": {
+    "source_file": "data\\test\\multiple_issues.csv",
+    "agent_version": "V1 (rule-based)",
+    "analyzed_at": "2026-01-15T22:08:44.486408",
+    "exported_at": "2026-01-15T22:08:44.486431"
+  }
+}

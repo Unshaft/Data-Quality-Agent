@@ -1,0 +1,27 @@
+# Data Quality Agent - Dependencies
+# Python 3.10+ required
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# === V2 Dependencies ===
+
+# LLM - Claude API
+anthropic>=0.39.0
+
+# LangChain/LangGraph for agent orchestration
+langchain-anthropic>=0.3.0
+langgraph>=1.0.0
+
+# Vector database for RAG
+chromadb>=0.5.0
+
+# Embeddings (local, no API key needed)
+sentence-transformers>=3.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=8.0.0

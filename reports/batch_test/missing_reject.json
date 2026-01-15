@@ -1,0 +1,31 @@
+{
+  "decision": "REJECT",
+  "summary": "Dataset with 1,000 rows and 12 columns has 2 critical quality issue(s). Manual review required.",
+  "issues": [
+    {
+      "type": "Missing values",
+      "severity": "critical",
+      "rule_reference": "DQ-01",
+      "explanation": "Column 'user_id' has 50.0% missing values, exceeding the 40.0% threshold.",
+      "column": "user_id"
+    },
+    {
+      "type": "Missing values",
+      "severity": "critical",
+      "rule_reference": "DQ-01",
+      "explanation": "Column 'age' has 45.0% missing values, exceeding the 40.0% threshold.",
+      "column": "age"
+    }
+  ],
+  "stats": {
+    "row_count": 1000,
+    "column_count": 12,
+    "issues_count": 2
+  },
+  "metadata": {
+    "source_file": "data\\test\\missing_reject.csv",
+    "agent_version": "V1 (rule-based)",
+    "analyzed_at": "2026-01-15T22:08:44.465391",
+    "exported_at": "2026-01-15T22:08:44.465413"
+  }
+}

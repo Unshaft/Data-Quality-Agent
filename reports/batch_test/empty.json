@@ -1,0 +1,24 @@
+{
+  "decision": "REJECT",
+  "summary": "Dataset with 0 rows and 12 columns has 1 critical quality issue(s). Manual review required.",
+  "issues": [
+    {
+      "type": "Empty dataset",
+      "severity": "critical",
+      "rule_reference": "DQ-02",
+      "explanation": "Dataset contains 0 rows. Cannot perform quality analysis on empty data.",
+      "column": null
+    }
+  ],
+  "stats": {
+    "row_count": 0,
+    "column_count": 12,
+    "issues_count": 1
+  },
+  "metadata": {
+    "source_file": "data\\test\\empty.csv",
+    "agent_version": "V1 (rule-based)",
+    "analyzed_at": "2026-01-15T22:08:44.452953",
+    "exported_at": "2026-01-15T22:08:44.452978"
+  }
+}

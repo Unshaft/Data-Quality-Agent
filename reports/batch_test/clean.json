@@ -1,0 +1,16 @@
+{
+  "decision": "ACCEPT",
+  "summary": "Dataset with 1,000 rows and 12 columns passed all quality checks.",
+  "issues": [],
+  "stats": {
+    "row_count": 1000,
+    "column_count": 12,
+    "issues_count": 0
+  },
+  "metadata": {
+    "source_file": "data\\test\\clean.csv",
+    "agent_version": "V1 (rule-based)",
+    "analyzed_at": "2026-01-15T22:08:44.449353",
+    "exported_at": "2026-01-15T22:08:44.449366"
+  }
+}

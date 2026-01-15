@@ -1,0 +1,15 @@
+{
+  "decision": "ACCEPT",
+  "summary": "Dataset with 1,000,000 rows and 60 columns passed all quality checks.",
+  "issues": [],
+  "stats": {
+    "row_count": 1000000,
+    "column_count": 60,
+    "issues_count": 0
+  },
+  "metadata": {
+    "generated_at": "2026-01-15T14:23:23.770396",
+    "data_file": "data\\e_commerce_shopper_behaviour_and_lifestyle.csv",
+    "rules_directory": "rules"
+  }
+}

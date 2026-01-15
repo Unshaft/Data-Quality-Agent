@@ -1,0 +1,31 @@
+{
+  "decision": "WARNING",
+  "summary": "Dataset with 1,000 rows and 12 columns has 2 quality issue(s) requiring attention.",
+  "issues": [
+    {
+      "type": "Missing values",
+      "severity": "medium",
+      "rule_reference": "DQ-01",
+      "explanation": "Column 'age' has 25.0% missing values, exceeding the 20.0% threshold.",
+      "column": "age"
+    },
+    {
+      "type": "Missing values",
+      "severity": "medium",
+      "rule_reference": "DQ-01",
+      "explanation": "Column 'monthly_spend' has 30.0% missing values, exceeding the 20.0% threshold.",
+      "column": "monthly_spend"
+    }
+  ],
+  "stats": {
+    "row_count": 1000,
+    "column_count": 12,
+    "issues_count": 2
+  },
+  "metadata": {
+    "source_file": "data\\test\\missing_warning.csv",
+    "agent_version": "V1 (rule-based)",
+    "analyzed_at": "2026-01-15T22:08:44.476898",
+    "exported_at": "2026-01-15T22:08:44.476924"
+  }
+}

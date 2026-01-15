@@ -1,0 +1,38 @@
+{
+  "decision": "WARNING",
+  "summary": "Dataset with 1,000 rows and 12 columns has 3 quality issue(s) requiring attention.",
+  "issues": [
+    {
+      "type": "Negative values",
+      "severity": "medium",
+      "rule_reference": "DQ-04",
+      "explanation": "Column 'age' contains 50 negative values (5.0%), which should not be possible for this field.",
+      "column": "age"
+    },
+    {
+      "type": "Negative values",
+      "severity": "medium",
+      "rule_reference": "DQ-04",
+      "explanation": "Column 'monthly_spend' contains 30 negative values (3.0%), which should not be possible for this field.",
+      "column": "monthly_spend"
+    },
+    {
+      "type": "Negative values",
+      "severity": "medium",
+      "rule_reference": "DQ-04",
+      "explanation": "Column 'account_age_months' contains 20 negative values (2.0%), which should not be possible for this field.",
+      "column": "account_age_months"
+    }
+  ],
+  "stats": {
+    "row_count": 1000,
+    "column_count": 12,
+    "issues_count": 3
+  },
+  "metadata": {
+    "source_file": "data\\test\\negative_values.csv",
+    "agent_version": "V1 (rule-based)",
+    "analyzed_at": "2026-01-15T22:08:44.496308",
+    "exported_at": "2026-01-15T22:08:44.496330"
+  }
+}

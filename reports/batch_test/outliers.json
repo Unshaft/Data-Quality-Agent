@@ -1,0 +1,31 @@
+{
+  "decision": "WARNING",
+  "summary": "Dataset with 1,000 rows and 12 columns has 2 quality issue(s) requiring attention.",
+  "issues": [
+    {
+      "type": "Outliers",
+      "severity": "medium",
+      "rule_reference": "DQ-05",
+      "explanation": "Column 'monthly_spend' has 10.0% outliers (values outside [-202.67, 801.62]).",
+      "column": "monthly_spend"
+    },
+    {
+      "type": "Outliers",
+      "severity": "medium",
+      "rule_reference": "DQ-05",
+      "explanation": "Column 'average_order_value' has 8.0% outliers (values outside [-48.78, 229.42]).",
+      "column": "average_order_value"
+    }
+  ],
+  "stats": {
+    "row_count": 1000,
+    "column_count": 12,
+    "issues_count": 2
+  },
+  "metadata": {
+    "source_file": "data\\test\\outliers.csv",
+    "agent_version": "V1 (rule-based)",
+    "analyzed_at": "2026-01-15T22:08:44.506152",
+    "exported_at": "2026-01-15T22:08:44.506173"
+  }
+}
