@@ -211,3 +211,6 @@ data/e_commerce_shopper_behaviour_and_lifestyle.csv
 
 # ChromaDB local storage
 chroma_db/
+
+# Claude Code settings
+.claude/

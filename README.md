@@ -276,6 +276,8 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## Author
 
+**Killian PERZO**
+
 Built as a demonstration of agentic AI architecture for data quality assessment.
 
 ---
