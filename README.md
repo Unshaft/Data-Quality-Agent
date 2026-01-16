@@ -110,6 +110,22 @@ ANTHROPIC_API_KEY=sk-ant-...
 
 ## Usage
 
+### Web Interface (Streamlit)
+
+The easiest way to use the tool is through the visual interface:
+
+```bash
+# Launch the web interface
+streamlit run app.py
+```
+
+This opens a browser with:
+- File upload or sample dataset selection
+- Toggle between V1 (rule-based) and V2 (LLM-powered)
+- Visual decision badge (green/yellow/red)
+- Interactive issue explorer
+- Downloadable JSON/HTML reports
+
 ### Basic Usage (V1 - Rule-based)
 
 ```bash
